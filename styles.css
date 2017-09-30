@@ -55,3 +55,12 @@ body {
     display: table-cell;
     vertical-align: middle;
 }
+
+.footer {
+    text-align: center;
+    margin: 15px 0 30px;
+}
+
+.footer img {
+    max-width: 100px;
+}
