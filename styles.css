@@ -4,6 +4,11 @@ body {
     background: rgb(48, 48, 48);
     font-size: 16px;
     font-family: monospace;
+    color: #fff;
+}
+
+h1 {
+    font-size: 400%;
 }
 
 .cover {
@@ -14,6 +19,22 @@ body {
     background-image: url(images/background.jpg);
     height: 25%;
     width: 100%;
+    position: relative;
+}
+
+.cover .header {
+    position: absolute;
+    bottom: 30px;
+    margin-left: 30px;
+}
+
+.cover .header h1 {
+    font-family: fantasy;
+}
+
+.cover .header a {
+    color: #fff;
+    font-size: 200%;
 }
 
 .cover-gradient {
@@ -21,7 +42,7 @@ body {
     height: 25%;
     width: 100%;
     position: absolute;
-    top: 0;
+    top: 1px;
 }
 
 .list {
@@ -33,6 +54,15 @@ body {
     overflow: hidden;
     margin-top: 15px;
     height: 140px;    
+}
+
+.link-item a {
+    display: block;
+    overflow: hidden;
+}
+
+.link-item a:active {
+    background-color: #464545;
 }
 
 .item-thumbnail img {
