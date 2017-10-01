@@ -39,7 +39,7 @@ h1 {
 
 .cover-gradient {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 90%, rgba(48,48,48,1));
-    height: 25%;
+    height: 100%;
     width: 100%;
     position: absolute;
     top: 1px;
