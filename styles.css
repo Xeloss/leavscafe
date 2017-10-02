@@ -16,7 +16,7 @@ h1 {
     background-position-y: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(images/background.jpg);
+    background-image: url(images/background.png);
     height: 25%;
     width: 100%;
     position: relative;
@@ -24,7 +24,7 @@ h1 {
 
 .cover .header {
     position: absolute;
-    bottom: 30px;
+    bottom: 55px;
     margin-left: 30px;
 }
 
